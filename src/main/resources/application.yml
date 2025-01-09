@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: rest
+    name: auth
   profiles:
     active: dev
   output:
