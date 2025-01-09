@@ -1,8 +1,8 @@
-package com.ll.rest.global.globalExceptionHandler;
+package com.ll.auth.global.globalExceptionHandler;
 
-import com.ll.rest.global.app.AppConfig;
-import com.ll.rest.global.exceptions.ServiceException;
-import com.ll.rest.global.rsData.RsData;
+import com.ll.auth.global.app.AppConfig;
+import com.ll.auth.global.exceptions.ServiceException;
+import com.ll.auth.global.rsData.RsData;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

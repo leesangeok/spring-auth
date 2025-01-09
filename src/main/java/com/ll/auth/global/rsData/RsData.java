@@ -1,4 +1,4 @@
-package com.ll.rest.global.rsData;
+package com.ll.auth.global.rsData;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;

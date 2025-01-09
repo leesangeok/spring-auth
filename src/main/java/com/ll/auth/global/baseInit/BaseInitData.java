@@ -1,9 +1,9 @@
-package com.ll.rest.global.baseInit;
+package com.auth.rest.global.baseInit;
 
-import com.ll.rest.domain.member.member.entity.Member;
-import com.ll.rest.domain.member.member.service.MemberService;
-import com.ll.rest.domain.post.post.entity.Post;
-import com.ll.rest.domain.post.post.service.PostService;
+import com.ll.auth.domain.member.member.entity.Member;
+import com.ll.auth.domain.member.member.service.MemberService;
+import com.ll.auth.domain.post.post.entity.Post;
+import com.ll.auth.domain.post.post.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;

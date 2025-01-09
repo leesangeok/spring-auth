@@ -1,8 +1,8 @@
-package com.ll.rest.domain.post.post.dto;
+package com.ll.auth.domain.post.post.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.ll.rest.domain.member.member.dto.MemberDto;
-import com.ll.rest.domain.post.post.entity.Post;
+import com.ll.auth.domain.member.member.dto.MemberDto;
+import com.ll.auth.domain.post.post.entity.Post;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

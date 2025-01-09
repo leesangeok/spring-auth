@@ -1,6 +1,6 @@
-package com.ll.rest.global.aspect;
+package com.ll.auth.global.aspect;
 
-import com.ll.rest.global.rsData.RsData;
+import com.ll.auth.global.rsData.RsData;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.aspectj.lang.ProceedingJoinPoint;

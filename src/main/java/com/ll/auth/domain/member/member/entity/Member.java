@@ -1,6 +1,6 @@
-package com.ll.rest.domain.member.member.entity;
+package com.ll.auth.domain.member.member.entity;
 
-import com.ll.rest.global.jpa.entity.BaseTime;
+import com.ll.auth.global.jpa.entity.BaseTime;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import lombok.*;

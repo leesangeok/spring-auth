@@ -1,6 +1,6 @@
-package com.ll.rest.global.exceptions;
+package com.ll.auth.global.exceptions;
 
-import com.ll.rest.global.rsData.RsData;
+import com.ll.auth.global.rsData.RsData;
 
 public class ServiceException extends RuntimeException {
     private final String resultCode;

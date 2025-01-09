@@ -1,8 +1,8 @@
-package com.ll.rest.domain.post.post.service;
+package com.ll.auth.domain.post.post.service;
 
-import com.ll.rest.domain.member.member.entity.Member;
-import com.ll.rest.domain.post.post.entity.Post;
-import com.ll.rest.domain.post.post.repository.PostRepository;
+import com.ll.auth.domain.member.member.entity.Member;
+import com.ll.auth.domain.post.post.entity.Post;
+import com.ll.auth.domain.post.post.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

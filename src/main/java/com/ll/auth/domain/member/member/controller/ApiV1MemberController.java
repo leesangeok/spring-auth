@@ -1,9 +1,9 @@
 package com.ll.rest.domain.member.member.controller;
 
-import com.ll.rest.domain.member.member.dto.MemberDto;
-import com.ll.rest.domain.member.member.entity.Member;
-import com.ll.rest.domain.member.member.service.MemberService;
-import com.ll.rest.global.rsData.RsData;
+import com.ll.auth.domain.member.member.dto.MemberDto;
+import com.ll.auth.domain.member.member.entity.Member;
+import com.ll.auth.domain.member.member.service.MemberService;
+import com.ll.auth.global.rsData.RsData;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import lombok.RequiredArgsConstructor;

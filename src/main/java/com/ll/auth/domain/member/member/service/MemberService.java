@@ -1,8 +1,8 @@
-package com.ll.rest.domain.member.member.service;
+package com.ll.auth.domain.member.member.service;
 
-import com.ll.rest.domain.member.member.entity.Member;
-import com.ll.rest.domain.member.member.repository.MemberRepository;
-import com.ll.rest.global.exceptions.ServiceException;
+import com.ll.auth.domain.member.member.entity.Member;
+import com.ll.auth.domain.member.member.repository.MemberRepository;
+import com.ll.auth.global.exceptions.ServiceException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -36,5 +36,9 @@ public class MemberService {
 
     public Optional<Member> findByUsername(String username) {
         return memberRepository.findByUsername(username);
+    }
+
+    public Optional<Member> findById(long authorId) {
+        return memberRepository.findById(authorId);
     }
 }
