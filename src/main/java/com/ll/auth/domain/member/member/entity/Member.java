@@ -18,14 +18,17 @@ public class Member extends BaseTime {
     @Column(length = 50)
     private String password;
 
-    @Column(unique = true, length = 50)
-    private String apiKey;
-
     @Column(length = 30)
     private String nickname;
+
+    @Column(unique = true, length = 50)
+    private String apiKey;
 
     public String getName() {
         return this.nickname;
     }
-}
 
+    public boolean isAdmin() {
+        return "admin".equals(username);
+    }
+}
